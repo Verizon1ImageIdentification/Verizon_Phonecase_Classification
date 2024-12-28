@@ -6,7 +6,7 @@ The main goal is to build a **Real Time Vision Algorithm** that is aimed to enha
 
 - An object detection model for phone case design recognition
 - A segmentation model for camera cutout recognition 
-- A segmentation model for phone detection *(Used jointly with the camera cutout model for accurate phone type prediction)*
+- A segmentation model for phone detection 
 
 # Table of Contents
 
@@ -85,7 +85,8 @@ Here's a visualization of the file structure within root, assuming files are sor
 ```
 
 ### Phone Model Detection
-
+We utilized two models: <b>Camera Cutout Segmentation Model </b> for camera recognition and <b>Phone Segmentation Model</b> for phone detection. <br>
+YOLOv11-seg was used for achieving high segmentation precision. <br>The models were used jointly for accurate phone type prediction.
 
 
 
